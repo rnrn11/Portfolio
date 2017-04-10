@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('fonts/quicksand-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('fonts/quicksand-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #272727;
+	margin: .5% 3% 3% 3%;
+	color: white;
+
+}
+p {
+	font-family: 'quicksandregular', sans-serif;
+}
+h1{
+	font-family: 'quicksandbold', sans-serif;
+}
